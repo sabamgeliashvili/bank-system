@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bank System</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Bank</h1>
+        </header>
+        <div id="reg-box" class="reg-box">
+            <button id="login">LOGIN</button>
+            <span>or</span>
+            <button id="create-btn">CREATE ACCOUNT</button>
+        </div>
+        
+        <div id="inp-box" class="inp-box" style="display: none;">
+            <span id="useroutput"></span>
+            <label for="logus">Enter Username:</label>
+            <input id="logus" type="text">
+            <label for="loglast">Enter Lastname:</label>
+            <input id="loglast" type="text">
+            <button id="logsub">LOGIN</button>
+            <button><a href="enter.html">GO BACK</a></button>
+        </div>
+    
+    
+        <div id="create-inp" style="display: none;">
+            <label for="username">Enter your name:</label>
+            <input class="c-inp" id="username" type="text">
+            <label for="lastname">Enter your lastname:</label>
+            <input class="c-inp" id="lastname" type="text">
+            <label for="usid">Enter user id you want to use:</label>
+            <input class="c-inp" id="usid" type="text">
+            <button id="c-submit">Submit</button>
+            <button><a href="enter.html">GO BACK</a></button>
+        </div>
+    </div>
+
+    <script src="enter.js"></script>
+    
+</body>
+</html>
